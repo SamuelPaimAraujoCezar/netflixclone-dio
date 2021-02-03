@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="sorcut icon" href="/img/netflix_logo.ico" type="image/x-icon">
+
+    <title>Netflix - assistir a séries online, assistir a filmes online</title>
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="https://fontmeme.com/permalink/210202/981323c812ce9810f8e034c2f8ccab0e.png" alt="netflix-font" border="0">
+            <nav>
+                <a href="">Inicio</a>
+                <a href="">Séries</a>
+                <a href="">Filmes</a>
+                <a href="">Documentarios</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <img class="titulo" src="img/logos/logo-hannibal.png" alt="Hannibal logo">
+                <p class="descricao">Will Graham é um investigador do FBI que tem o talento de se inserir nas cenas dos crimes e visualizar exatamente o que aconteceu. Tal capacidade ajuda a solucionar muitos casos, mas também exige muito dele, obrigando-o a consultar o psiquiatra
+                    Hannibal Lecter. Mal sabe Graham, que o dr. Lecter não é um psiquiatra comum.</p>
+            </div>
+            <div class="opcoes">
+                <button role="button" class="assistir-agora" onclick="play()">
+                    Play
+                </button>
+                <button role="button" class="mais-informacoes" onclick="moreInfo()">
+                    More Info
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="title-others">
+            <h2>Outras séries e filmes para você assistir</h2>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-millennium-mini.jpg" alt="Millennium Cover">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-twin_peaks-mini.jpg" alt="Twin Peaks Cover">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-the_sopranos-mini.jpg" alt="The Sopranos Cover">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-dexter-mini.jpg" alt="Dexter Cover">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-game_of_thrones-mini.jpg" alt="Game of Thrones Cover">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-the_witcher-mini.jpg" alt="The Witcher Cover">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-breaking_bad-mini.jpg" alt="Breaking Bad Cover">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-forgotten-mini.jpg" alt="Forgotten Cover">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-no_country_for_old_men-mini.jpg" alt="No Country for Old Men Cover">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/covers/capa-nightcrawler-mini.jpg" alt="Nightcrawler Cover">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/setup.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+:root {
+    --red: #E50914;
+    --black: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*elementos base*/
+
+body {
+    background: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+}
+
+header .logo {
+    margin: 0.25% 0.5% 0.25% 3%;
+    height: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+
+/*filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/covers/capa-hannibal.jpg');
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4%;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 60px;
+    text-align: justify;
+    width: 270px;
+}
+
+.filme-principal .titulo {
+    height: 50px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.assistir-agora,
+.mais-informacoes {
+    height: 40px;
+    border: none;
+    padding: 0 20px 0 50px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.assistir-agora {
+    background: url('/img/button-background/logo-play.png');
+    background-size: cover;
+}
+
+.mais-informacoes {
+    background: url('/img/button-background/logo-info.png');
+    background-size: cover;
+    color: white;
+}
+
+.assistir-agora:hover {
+    background: url('/img/button-background/logo-play-hover.png');
+    background-size: cover;
+    color: white;
+}
+
+.mais-informacoes:hover {
+    background: url('/img/button-background/logo-info-hover.png');
+    background-size: cover;
+    color: var(--black);
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.title-others {
+    margin: 20px 0 20px 10px;
+    font-size: 20px;
+}
